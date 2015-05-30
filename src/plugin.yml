@@ -1,0 +1,8 @@
+name: Rp Plugin
+version: 0.2
+author: Amaras
+main fr.amaras.rp.Rp
+commands:
+  classe:
+    Usage: /classe
+    Description: Permet de choisir une classe.
