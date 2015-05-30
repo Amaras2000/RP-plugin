@@ -20,7 +20,7 @@ public class RP extends JavaPlugin {
 		getLogger().info("[RP Plugin] is enable");
 		
 		pm.registerEvents(new RPEvent(this), this);
-		getCommand("class").setExecutor(new ClassPlayerCmd(this));
+		getCommand("classe").setExecutor(new ClassPlayerCmd(this));
 	}
 
 }

@@ -58,6 +58,8 @@ public class ClassPlayerCmd implements CommandExecutor{
         im5.setDisplayName("Bandit");
         is5.setItemMeta(im5);
         iv.setItem(4, is5);
+        
+        pl.openInventory(iv);
 		return true;
 	}
 

@@ -1,7 +1,7 @@
 name: Rp Plugin
 version: 0.2
 author: Amaras
-main fr.amaras.rp.Rp
+main: fr.amaras.rp.RP
 commands:
   classe:
     Usage: /classe
