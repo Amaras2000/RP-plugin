@@ -11,14 +11,14 @@ import fr.amaras.rp.event.RPEvent;
 
 public class RP extends JavaPlugin {
 
+	public RPEvent rpe;
+
 	ScoreboardManager sm;
 	Scoreboard s;
 	Objective obj;
-	PluginManager pm;
+	PluginManager pm = getServer().getPluginManager();
 
 	public void onEnable() {
-		getLogger().info("[RP Plugin] is enable");
-		
 		pm.registerEvents(new RPEvent(this), this);
 		getCommand("classe").setExecutor(new ClassPlayerCmd(this));
 	}
